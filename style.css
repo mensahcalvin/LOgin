@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #808080;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+ 
+}
+form{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}
+.message{
+    width: 40vh;
+    height: 30vh;
+    padding: 20px;
+}
+.past{
+    width: 40vh;
+    height: 60%;
+    padding: 20px;
+}
+button{
+    padding: 20px;
+    background-color: blue;
+    color: bisque;
+    border-radius: 20%;
+    border: none;
+}
+button:focus{
+    color: cadetblue;
+}
+button:hover{
+    color: rgb(173, 173, 14);
+}
+::placeholder{
+    color: darkorange;
+    padding: 30px;
+    text-decoration: none;
+    font: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
